@@ -1,0 +1,36 @@
+#myList{
+    height:300px;
+    background-color:red;
+    background-image:linear-gradient(to right,red,yellow);
+    width:40%;
+    font-size:40px;
+}
+
+
+#myNewList {
+    height: 180px;
+    background-color: red;
+    background-image: linear-gradient(to right,green,yellow);
+    width: 40%;
+    font-size: 50px;
+    font-family:Bahnschrift
+}
+
+#changeBtn {
+    margin: 0;
+    position: absolute;
+    left:10px;
+    top: 45%;
+    /*-ms-transform: translateY(-10%);
+    transform: translateY(-10%);*/
+}
+
+#h1Demo1 {
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h1Demo2 {
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
