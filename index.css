@@ -1,5 +1,5 @@
 #myList{
-    height:300px;
+    height:500px;
     background-color:red;
     background-image:linear-gradient(to right,red,yellow);
     width:40%;
@@ -8,19 +8,25 @@
 
 
 #myNewList {
-    height: 180px;
+    height: 300px;
     background-color: red;
     background-image: linear-gradient(to right,green,yellow);
     width: 40%;
     font-size: 50px;
-    font-family:Bahnschrift
+    font-family:Bahnschrift;
+    transition: width 1s;
+}
+
+#myNewList:hover {
+    width: 600px;
+    height: 600px;
 }
 
 #changeBtn {
     margin: 0;
     position: absolute;
     left:10px;
-    top: 45%;
+    top: 60%;
     /*-ms-transform: translateY(-10%);
     transform: translateY(-10%);*/
 }
@@ -33,4 +39,20 @@
 #h1Demo2 {
     font-size: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color:orange;
+    text-shadow: 3px 3px purple;
 }
+
+li {
+    color: white;
+    width: 150px;
+    height: 100px;
+    background: rgb(38, 0, 255);
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  li:hover {
+    width: 300px;
+    height: 200px;
+    transform: rotate(360deg);
+  }
