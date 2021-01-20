@@ -6,8 +6,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
     startPage.style.display = "block";
     finalPage.style.display = "none";
     document.getElementById("changeBtn").style.visibility = "hidden";
+    document.getElementById("startBtn").addEventListener("click",start,false);
+    document.getElementById("changeBtn").addEventListener("click",change,false);
 });
-
 
 //====================================================================
 // functions defined below
